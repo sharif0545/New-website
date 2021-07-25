@@ -1,0 +1,272 @@
+/* ---------------- basic css --------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, p{
+    letter-spacing: -0.5px;
+}
+h2{
+    font-size: 32px;
+}
+p{
+    color:dimgray;
+}
+.container {
+	width: 85%;
+	margin: 0 7.5%;
+}
+.text-center{
+    text-align: center;
+}
+.heading-space{
+	padding:20px 0;
+}
+.home,
+.about
+{
+	overflow: hidden;
+  
+}
+
+.half-width{
+    width: 40%;
+}
+.half-width img {
+	width: 90%;
+}
+.coral-color{
+    color: rgb(255, 127, 80);
+}
+.btn{
+    text-decoration: none;
+    font-size: 16px;
+    background-image: linear-gradient(to top, rgb(252, 138, 96), rgb(252, 77, 14));
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+	cursor:pointer;
+	
+}
+.btn:hover{
+    background-image: linear-gradient(to bottom, rgb(252, 138, 96), rgb(252, 77, 14));
+}
+.home-content, 
+.home-image, 
+.about-content, 
+.about-image{
+    float: left;
+    margin: 5%;
+}
+/* ---------------- // basic css --------------- */
+
+
+/* ---------------- menu area ---------------- */
+.menu{
+    overflow: hidden;
+}
+.top-nav ul li{
+    float: right;
+    list-style-type: none;
+    margin: 20px 18px 0 18px;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+/* ---------------- // menu area ---------------- */
+
+
+/* ---------------- home area ---------------- */
+.home {
+	background: url('../shapes/header-bg.png');
+	background-repeat: no-repeat;
+	margin-top: -55px;
+}
+.home-content {
+	padding-top: 110px;
+}
+.home-content h1 {
+	font-size: 50px;
+	line-height: 10px;
+}
+/* ---------------- // home area ---------------- */
+
+
+/* ---------------- about area ---------------- */
+.about{
+	background:url('../shapes/biography-bg.png');
+	background-repeat:no-repeat;
+}
+.about-content {
+	padding-top: 80px;
+}
+/* ---------------- // about area ---------------- */
+
+
+/* ---------------- work area ---------------- */
+.work {
+	background-color: rgb(251, 250, 252);
+	overflow: hidden;
+	padding: 60px 0;
+}
+.latest-works{
+    width: 80%;
+    margin: auto;
+}
+.activities {
+	float: left;
+	width: 26%;
+	margin: 0 2.2%;
+	padding: 15px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px lightgray;
+}
+.latest-works h2 {
+	text-align: center;
+	padding-bottom: 25px;
+}
+.activities img{
+    width: 100%;
+}
+/* ---------------- // work area ---------------- */
+
+
+
+/* ---------------- client area ---------------- */
+
+.client {
+	background: url('../shapes/footer-bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 40px;
+}
+.client p{
+	line-height: 1.5;
+}
+.client h4{
+	font-weight:500;
+}
+
+.client hr {
+	border: 3px solid tomato;
+	width: 5%;
+	margin: 0 auto;
+}
+.client h1{
+	text-transform:uppercase;
+	font-size:40px;
+}
+.client .section-header p{
+	font-weight:400;
+	font-style:normal;
+	letter-spacing:1px;
+	line-height:1.5;
+	font-size:16px;
+}
+.client h1,
+.client h2{
+	color:#000000;
+}
+.client h4{
+	color:tomato;
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+.testimonials {
+	width: 80%;
+	margin: 0 12%;
+}
+.testomoial-content{
+	display:flex;
+}
+.client .testimonials p {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.client h2{
+	text-transform:uppercase;
+	font-weight:700;
+	font-style:normal;
+	font-size:26px !important;
+}
+.clients{
+	display:flex;
+}
+
+.client-content {
+	padding: 0px 50px;
+}
+
+.client .clients {
+	margin: 3% auto;
+}
+.clients .client-thumb img{
+	border-radius:50%;
+}
+/* ---------------- // client area ---------------- */
+
+
+
+/* ---------------- chatting area ---------------- */
+.chatting {
+	margin-top: 60px;
+}
+.chat-box {
+	width: 60%;
+	min-height: 160px;
+	margin: 0 auto;
+	background: url('../shapes/Group_33094_1.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 70%;
+}
+.chat-heading, .chat-btn {
+	float: left;
+	
+}
+.chat-heading h2{
+	margin-left:100px;
+	color:#ffffff;
+}
+
+.chat-heading{
+	padding: 40px 80px;
+}
+.chat-btn {
+	margin: 55px 0 0 110px;
+}
+.contact-box h3{
+	font-size:32px;
+}
+.contact{
+   margin: 5% 7.5%;
+}
+.contact-box h5{
+	color:dimgray;
+}
+.contact-media {
+	width: 14%;
+	overflow: hidden;
+	margin: 0 43%;
+	display:flex;
+}
+.contact-media img {
+	width: 55%;
+}
+
+/* ---------------- // chatting area ---------------- */
+
